@@ -30,5 +30,8 @@ def play(songs)
   if songs.include?(user_input)
     puts "Playing #{user_input}"
   elsif user_input.to_i == 1...9)
-    puts 
+    puts "Playing #{user_input}"
+  else
+    puts "Invalid input, please try again"
+  end
 end
