@@ -19,4 +19,5 @@ def help
 end
 
 def list(songs)
+  song_hash
   songs.each_with_index{|item,index| 
