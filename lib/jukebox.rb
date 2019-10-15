@@ -45,11 +45,13 @@ def run(songs)
   user_input = gets.strip
   if user_input == "help"
     help
-  if user_input == "list"
+  elsif user_input == "list"
     list
-  if user_input == "play"
+  elsif user_input == "play"
     play
-  if user_input == "exit"
+  elsif user_input == "exit"
     exit_jukebox
+  else
+    break
   end
 end
